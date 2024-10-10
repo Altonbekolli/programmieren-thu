@@ -1,4 +1,4 @@
-add_executable(programmieren-thu "main.cpp" "alton_bekolli.h" "alton_bekolli.cpp"
+add_executable(programmieren-thu "main.cpp" "alton_bekolli.h" "alton_bekolli.cpp" "jeremy_diem.h" "jeremy_diem.cpp"
         main.cpp
         main.cpp
         alton_bekolli.cpp)
