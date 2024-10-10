@@ -1,0 +1,9 @@
+# Ignoriere IntelliJ/CLion Projektdateien
+.idea/
+
+# Ignoriere CMake Build-Ordner
+cmake-build-debug/
+
+# Ignoriere andere temporäre Dateien
+*.log
+*.tmp
