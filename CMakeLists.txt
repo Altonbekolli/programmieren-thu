@@ -1,3 +1,5 @@
+cmake_minimum_required(VERSION 3.29)
+
 add_executable(programmieren-thu "main.cpp" "alton_bekolli.h" "alton_bekolli.cpp" "jeremy_diem.h" "jeremy_diem.cpp"
         main.cpp
         main.cpp
