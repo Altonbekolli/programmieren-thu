@@ -3,6 +3,7 @@
 #include "jeremy_diem.h"
 #include "gabriel_penkert.h"
 #include "serhat_guerel.h"
+#include "valentin_talmon.h"
 
 int main(int, char**) {
     std::cout << "Unsere Gruppe:\n\n";
@@ -10,4 +11,5 @@ int main(int, char**) {
     print_info_jeremy_diem();
     print_info_gabriel_penkert();
     print_info_serhat_guerel();
+    print_info_valentin_talmon();
 }
