@@ -11,7 +11,9 @@ add_executable(programmieren-thu
         "gabriel_penkert.cpp"
         "gabriel_penkert.h"
         "serhat_guerel.cpp"
-        "serhat_guerel.h")
+        "serhat_guerel.h"
+        valentin_talmon.h
+        valentin_talmon.cpp)
 
 
 if (CMAKE_VERSION VERSION_GREATER 3.12)
