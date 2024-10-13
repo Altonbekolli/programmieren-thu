@@ -1,0 +1,3 @@
+C:/Users/serha/source/repos/programmieren-thu/out/build/x64-Debug/CMakeFiles/programmieren-thu.dir
+C:/Users/serha/source/repos/programmieren-thu/out/build/x64-Debug/CMakeFiles/edit_cache.dir
+C:/Users/serha/source/repos/programmieren-thu/out/build/x64-Debug/CMakeFiles/rebuild_cache.dir
