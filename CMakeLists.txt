@@ -1,23 +1,24 @@
+# Mindestversion von CMake festlegen
 cmake_minimum_required(VERSION 3.29)
 
+# Projekt definieren
+project(ProgrammierenTHU VERSION 1.0 LANGUAGES CXX)
+
+# Setze den Standard für C++
+set(CMAKE_CXX_STANDARD 20)
+set(CMAKE_CXX_STANDARD_REQUIRED True)
+
+# Füge die ausführbare Datei und alle Quellcode-Dateien hinzu
 add_executable(programmieren-thu
-        "main.cpp" "alton_bekolli.h"
-        "alton_bekolli.cpp"
-        "jeremy_diem.h"
-        "jeremy_diem.cpp"
-        "main.cpp"
-        "main.cpp"
-        "alton_bekolli.cpp"
-        "gabriel_penkert.cpp"
-        "gabriel_penkert.h"
-        "serhat_guerel.cpp"
-        "serhat_guerel.h"
-        "valentin_talmon.h"
-        "valentin_talmon.cpp")
+        main.cpp
+        alton_bekolli.cpp
+        jeremy_diem.cpp
+        gabriel_penkert.cpp
+        serhat_guerel.cpp
+        valentin_talmon.cpp
+        Analyze.cpp
+        Schein1_Aufgaben.cpp
+)
 
-
-if (CMAKE_VERSION VERSION_GREATER 3.12)
-set_property(TARGET programmieren-thu PROPERTY CXX_STANDARD 20)
-endif()
-
-# TODO: Fügen Sie bei Bedarf Tests hinzu, und installieren Sie Ziele.
+# Füge die Header-Dateien als Include-Direktory hinzu
+target_include_directories(programmieren-thu PRIVATE ${CMAKE_SOURCE_DIR})
